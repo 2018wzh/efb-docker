@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   efb:
-    image: 2018wzh/efb
+    image: ghcr.io/2018wzh/efb-docker:latest
     container_name: efb
     volumes:
       - ./data:/opt/app/ehforward_config
