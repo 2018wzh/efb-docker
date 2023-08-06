@@ -2,4 +2,3 @@ ehforwarderbot
 efb-telegram-master
 git+https://github.com/ehForwarderBot/efb-wechat-slave.git
 git+https://github.com/ehForwarderBot/efb-qq-slave.git
-git+https://github.com/ehForwarderBot/efb-qq-plugin-go-cqhttp
