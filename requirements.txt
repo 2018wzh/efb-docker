@@ -1,4 +1,5 @@
-ehforwarderbot
-efb-telegram-master
-git+https://github.com/ehForwarderBot/efb-wechat-slave.git
-git+https://github.com/ehForwarderBot/efb-qq-slave.git
+git+https://github.com/ehForwarderBot/efb-telegram-master.git
+git+https://github.com/0honus0/python-comwechatrobot-http.git
+git+https://github.com/0honus0/efb-wechat-comwechat-slave.git
+lottie
+cairosvg
