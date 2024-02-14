@@ -10,5 +10,4 @@ RUN apk --no-cache --virtual build add sed build-base libffi-dev openssl-dev &&\
     rm -rf ~/.cache &&\
     apk del build  &&\
     chmod +x /opt/app/init.sh
-VOLUME /opt/app/ehforward_config/profiles/${PROFILE}
-ENTRYPOINT ["sh", "/opt/app/init.sh"]
+ENTRYPOINT ["ehforwarderbot"]
