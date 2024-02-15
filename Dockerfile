@@ -2,8 +2,8 @@ FROM python:alpine
 COPY . /opt/app
 WORKDIR /opt/app
 ENV PROFILE default
-RUN apk --no-cache --virtual build add sed build-base libffi-dev openssl-dev jpeg-dev zlib-dev libwebp-dev git&&\
-    apk --no-cache add libmagic ffmpeg cairo libopus  &&\
+RUN apk --no-cache --virtual build add sed build-base libffi-dev openssl-dev jpeg-dev zlib-dev libwebp-dev opus-dev git&&\
+    apk --no-cache add libmagic ffmpeg cairo opus  &&\
     pip install -U pip &&\
     pip install -r requirements.txt &&\
     rm -rf ~/.cache &&\
