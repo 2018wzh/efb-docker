@@ -16,5 +16,5 @@ services:
     image: ghcr.io/2018wzh/efb-docker:latest
     container_name: efb
     volumes:
-      - ./data:/opt/app/ehforward_config
+      - ./data/ehforward_config:/opt/app/ehforward_config
     restart: unless-stopped
